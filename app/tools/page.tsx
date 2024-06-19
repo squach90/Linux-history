@@ -1,4 +1,11 @@
 import { Footer } from "../page/Footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Linux History",
+  description:
+    "Linux History: The Linux History writed by @squach90",
+};
 
 /* eslint-disable @next/next/no-img-element */
 const Tools: React.FC = () => {
