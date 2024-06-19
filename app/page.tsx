@@ -2,6 +2,13 @@ import Image from "next/image";
 import { Hero } from "./page/Hero";
 import { Footer } from "./page/Footer";
 import { History } from "./page/History";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Linux History",
+  description:
+    "Linux History: The Linux History writed by @squach90",
+};
 
 export default function Home() {
   return (

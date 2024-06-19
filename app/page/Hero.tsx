@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
 export function Hero() {
@@ -8,8 +9,8 @@ export function Hero() {
           The history of Linux
         </h1>
         <div className="hidden md:block absolute right-5 top-10 md:right-24 md:top-20">
-          <Image
-            src="/images/Tux icone.png"
+          <img
+            src="/images/Tux.png"
             alt="Linux Logo"
             width={250}
             height={250}
