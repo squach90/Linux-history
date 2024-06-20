@@ -3,16 +3,20 @@ import { Hero } from "./page/Hero";
 import { Footer } from "./page/Footer";
 import { History } from "./page/History";
 import { Metadata } from "next";
+import { Spotlight } from "../components/ui/Spotlight";
 
 export const metadata: Metadata = {
   title: "Linux History",
-  description:
-    "Linux History: The Linux History writed by @squach90",
+  description: "Linux History: The Linux History writed by @squach90",
 };
 
 export default function Home() {
   return (
     <main className="h-full gap-6">
+      <Spotlight
+        className="-top-40 left-100 md:left-10 md:-top-20"
+        fill="white"
+      />
       <div
         className="absolute inset-x-0 top-10 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
